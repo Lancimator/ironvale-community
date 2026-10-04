@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reviews, strategies and general talk
+    url: https://github.com/Lancimator/ironvale-community/discussions
+    about: Share how your campaign went, ask for help with a map, or write a review.
+  - name: Report illegal content or contact the operator
+    url: https://ironvale.pages.dev/impressum.html
+    about: For anything that breaks the law or needs to reach the operator privately.

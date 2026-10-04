@@ -1,0 +1,57 @@
+name: Bug report
+description: Something in Ironvale is broken, wrong or crashes.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Everything you write here is **public**, so please
+        leave out your e-mail address, real name or anything else personal.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected to see instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen again?
+      description: The steps that lead to it, as exactly as you can remember them.
+      placeholder: |
+        1. Open Southport Road on Ironclad
+        2. Build a barracks on the first pad
+        3. Call wave 4 early
+    validations:
+      required: false
+  - type: input
+    id: level
+    attributes:
+      label: Where in the game?
+      description: Map, difficulty and wave, or the screen you were on.
+      placeholder: "L3, Squire, wave 7  /  the Armoury"
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Desktop or laptop (mouse)
+        - Phone
+        - Tablet
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: "Chrome 140 on Windows 11  /  Safari on iPhone 15"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
+      description: Drag images in here. If the browser console showed an error, paste it too.
